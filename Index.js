@@ -1,5 +1,6 @@
 const { Client, MessageEmbed } = require('discord.js');
 const client = new Client();
+const token = '';
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
@@ -32,4 +33,4 @@ client.on('message', async msg => {
 
 });
 
-client.login('ODM3MTIzNTU3NjgyNDQ2MzQ4.YIn-EQ.EavKG5AmouZkkaJhkJjU3jgsP-Y');
+client.login(token);
